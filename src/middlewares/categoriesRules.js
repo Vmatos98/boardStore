@@ -2,6 +2,7 @@ import colors from 'colors';
 
 import db from './../db.js';
 import {categorySchema} from './../schemas/categoriesSchemas.js';
+
 export async function addCategoryRules(req, res, next) {
     try {
         const { name } = req.body;
