@@ -25,6 +25,7 @@ export async function getGames(req, res) {
     }
 }
 
+
 export async function postGames(req, res){
     try {
         const { name, image, stockTotal, pricePerDay, categoryId } = req.body;
